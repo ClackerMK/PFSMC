@@ -24,8 +24,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    monster.cpp \
+    graft.cpp \
+    option.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    monster.h \
+    graft.h \
+    option.h \
+    statistics.h
 
 FORMS    += mainwindow.ui
